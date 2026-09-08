@@ -1,5 +1,11 @@
 .symbol {
   font-size: 50px;
+  margin-right: 5px;
+}
+
+.symbol_current {
+  text-decoration: underline;
+  color: #333;
 }
 
 .symbol_correct {
@@ -11,3 +17,11 @@
   color: #fff;
 }
 
+.status p {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+#timer {
+  font-weight: bold;
+}
