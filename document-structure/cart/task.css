@@ -88,4 +88,11 @@ body {
 
 .product-shadow {
   position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition-property: opacity;
+  transition-duration: 0.8s;
+}
+.product-shadow:hover {
+  opacity: 0.9;
 }
